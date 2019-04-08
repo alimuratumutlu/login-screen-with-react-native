@@ -11,13 +11,6 @@ import {
   TouchableOpacity
 } from "react-native";
 
-const instructions = Platform.select({
-  ios: "Press Cmd+R to reload,\n" + "Cmd+D or shake for dev menu",
-  android:
-    "Double tap R on your keyboard to reload,\n" +
-    "Shake or press menu button for dev menu"
-});
-
 import bgImage from "./images/background.jpg";
 import logo from "./images/logo.png";
 import FontAwesome5 from "react-native-vector-icons/FontAwesome5";
